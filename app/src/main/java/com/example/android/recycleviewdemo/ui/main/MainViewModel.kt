@@ -16,13 +16,9 @@ class MainViewModel : ViewModel() {
     private fun mockItems() {
         val itemDataList = mutableListOf<ItemData>()
 
-        var count = 1
-        while (count <= 100)
-        {
-
+        for(count in 1..100) {
             val data = ItemData(id = count)
             itemDataList.add(data)
-            ++count
         }
         _items.postValue(itemDataList)
     }
