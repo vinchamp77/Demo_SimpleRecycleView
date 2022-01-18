@@ -1,13 +1,11 @@
 package com.example.android.recycleviewdemo.ui.main
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.example.android.recycleviewdemo.R
 import com.example.android.recycleviewdemo.databinding.MainFragmentBinding
 
 class MainFragment : Fragment() {
