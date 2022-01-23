@@ -1,18 +1,21 @@
 package com.example.android.recycleviewdemo
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.android.recycleviewdemo.ui.main.MainFragment
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.viewModels
+import com.example.android.recycleviewdemo.ui.main.MainScreen
+import com.example.android.recycleviewdemo.ui.main.MainViewModel
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : ComponentActivity() {
+    val viewModel by viewModels<MainViewModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.main_activity)
-        if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.container, MainFragment.newInstance())
-                .commitNow()
+        setContent {
+            MainScreen(viewModel)
         }
     }
 }
+
+
