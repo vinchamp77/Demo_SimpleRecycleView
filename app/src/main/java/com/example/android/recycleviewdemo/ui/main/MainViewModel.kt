@@ -20,7 +20,6 @@ class MainViewModel : ViewModel() {
             val data = ItemData(id = count)
             itemDataList.add(data)
         }
-
         _items.value = itemDataList
     }
 }
