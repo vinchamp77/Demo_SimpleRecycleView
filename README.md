@@ -6,8 +6,8 @@
 - Android Studio Bumblebee or later
 
 ## Articles
-- Step-by-step Guides to Implement RecycleView
-- Convert RecycleView to LazyColumn - Jetpack Compose
+- [Step-by-step Guides to Implement RecycleView](https://vtsen.hashnode.dev/step-by-step-guides-to-implement-recycleview)
+- [Convert RecycleView to LazyColumn - Jetpack Compose](https://vtsen.hashnode.dev/convert-recycleview-to-lazycolumn-jetpack-compose)
 
 ## Branches
 - [master](https://github.com/vinchamp77/Demo_SimpleRecycleView/tree/master) - Simple RecycleView Demo (Implemented using Android View System)
