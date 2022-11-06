@@ -5,6 +5,10 @@
 ## Requirements
 - Android Studio Bumblebee or later
 
+## Tech Stack
+- RecycleView (Android View)
+- LazyColumn (Jetpack Compose)
+
 ## Articles
 - [Step-by-step Guides to Implement RecycleView](https://vtsen.hashnode.dev/step-by-step-guides-to-implement-recycleview) (Android View)
 - [Convert RecycleView to LazyColumn](https://vtsen.hashnode.dev/convert-recycleview-to-lazycolumn-jetpack-compose) (Jetpack Compose)
